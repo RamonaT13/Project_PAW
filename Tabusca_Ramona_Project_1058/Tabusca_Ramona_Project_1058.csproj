@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{689E336B-2D76-4D0B-8B27-452BE60AED94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Tabusca_Ramona_Project_1058</RootNamespace>
+    <AssemblyName>Tabusca_Ramona_Project_1058</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Candidat.cs" />
+    <Compile Include="Facultate.cs" />
+    <Compile Include="FormFacultate1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFacultate1.Designer.cs">
+      <DependentUpon>FormFacultate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFacultate2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFacultate2.Designer.cs">
+      <DependentUpon>FormFacultate2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFacultate3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFacultate3.Designer.cs">
+      <DependentUpon>FormFacultate3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFacultate4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFacultate4.Designer.cs">
+      <DependentUpon>FormFacultate4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFacultate5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFacultate5.Designer.cs">
+      <DependentUpon>FormFacultate5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFacultate6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFacultate6.Designer.cs">
+      <DependentUpon>FormFacultate6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InscriereCandidat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InscriereCandidat.Designer.cs">
+      <DependentUpon>InscriereCandidat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUniversitate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUniversitate.Designer.cs">
+      <DependentUpon>FormUniversitate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormFacultate1.resx">
+      <DependentUpon>FormFacultate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFacultate2.resx">
+      <DependentUpon>FormFacultate2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFacultate3.resx">
+      <DependentUpon>FormFacultate3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUniversitate.resx">
+      <DependentUpon>FormUniversitate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siglasiteupitmare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fac1png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fac2png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fac3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
