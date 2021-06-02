@@ -64,5 +64,16 @@ namespace Tabusca_Ramona_Project_1058
             new InscriereCandidat().Show();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new FormBazaCandidati().Show();
+        }
+
+        private void bazaDeDateFacultatiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormBazaFacultati ff = new FormBazaFacultati();
+            ff.Show();
+        }
     }
 }

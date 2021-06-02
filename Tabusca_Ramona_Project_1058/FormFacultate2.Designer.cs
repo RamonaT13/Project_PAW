@@ -29,6 +29,7 @@ namespace Tabusca_Ramona_Project_1058
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFacultate2));
             this.label1 = new System.Windows.Forms.Label();
             this.buttonInchidere2 = new System.Windows.Forms.Button();
             this.treeViewFac2 = new System.Windows.Forms.TreeView();
@@ -85,6 +86,8 @@ namespace Tabusca_Ramona_Project_1058
             this.Controls.Add(this.buttonInchidere2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormFacultate2";
             this.Text = "Facultatea de Mecanica si Tehnologie";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

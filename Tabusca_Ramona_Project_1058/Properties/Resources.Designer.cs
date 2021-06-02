@@ -63,6 +63,16 @@ namespace Tabusca_Ramona_Project_1058.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _426_4267489_close_button_transparent_png_pictures_close_button_icon {
+            get {
+                object obj = ResourceManager.GetObject("426-4267489_close-button-transparent-png-pictures-close-button-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fac1png {
             get {
                 object obj = ResourceManager.GetObject("fac1png", resourceCulture);
@@ -86,6 +96,46 @@ namespace Tabusca_Ramona_Project_1058.Properties {
         internal static System.Drawing.Bitmap fac3 {
             get {
                 object obj = ResourceManager.GetObject("fac3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fac4_2 {
+            get {
+                object obj = ResourceManager.GetObject("fac4_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FAC5_1 {
+            get {
+                object obj = ResourceManager.GetObject("FAC5_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FAC6_1 {
+            get {
+                object obj = ResourceManager.GetObject("FAC6_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_close_window_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-close-window-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

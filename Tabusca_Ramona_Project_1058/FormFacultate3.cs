@@ -16,7 +16,7 @@ namespace Tabusca_Ramona_Project_1058
         Facultate b2 = new Facultate("Inginerie electrică", "Electromecanică", 8.9, 7.86, 90, 4);
         Facultate b3 = new Facultate("Inginerie electrică", "Inginerie electrică și calculatoare (la Râmnicu Vâlcea)", 8.07, 7.21, 60, 4);
         Facultate b4 = new Facultate("Inginerie electronică, telecomunicații și tehnologii informaționale", "Electronică aplicată", 8.02, 7.2, 60, 4);
-        Facultate b5 = new Facultate("Inginerie electronică, telecomunicații și tehnologii informaționale", "Rețele şi software de telecomunicații", 8.44, 7.03, 0x2d, 4);
+        Facultate b5 = new Facultate("Inginerie electronică, telecomunicații și tehnologii informaționale", "Rețele şi software de telecomunicații", 8.44, 7.03, 45, 4);
         public FormFacultate3()
         {
             InitializeComponent();

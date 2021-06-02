@@ -9,6 +9,8 @@ namespace Tabusca_Ramona_Project_1058
         [Serializable]
         public class Facultate
         {
+        private int idFacultate;
+        private string numeFacultate;
             private string numeDepartament;
             private string specializare;
             private double medieMinBuget;
@@ -18,6 +20,7 @@ namespace Tabusca_Ramona_Project_1058
 
             public Facultate()
             {
+                this.idFacultate = 0;
                 this.numeDepartament = " ";
                 this.specializare = " ";
                 this.medieMinBuget = 0.0;
@@ -36,7 +39,22 @@ namespace Tabusca_Ramona_Project_1058
                 this.aniStudiu = _aniStudiu;
             }
 
-            public string NumeDepartament
+        public int IdFacultate
+        {
+            get =>
+                this.idFacultate;
+            set =>
+                this.idFacultate = value;
+        }
+        public string NumeFacultate
+        {
+            get =>
+                this.numeFacultate;
+            set =>
+                this.numeFacultate = value;
+        }
+
+        public string NumeDepartament
             {
                 get =>
                     this.numeDepartament;

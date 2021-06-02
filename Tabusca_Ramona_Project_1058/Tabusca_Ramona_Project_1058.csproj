@@ -47,7 +47,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Candidat.cs" />
+    <Compile Include="DB_ProjectDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_ProjectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_ProjectDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_ProjectDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_ProjectDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_ProjectDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Facultate.cs" />
+    <Compile Include="FormBazaCandidati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBazaCandidati.Designer.cs">
+      <DependentUpon>FormBazaCandidati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBazaFacultati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBazaFacultati.Designer.cs">
+      <DependentUpon>FormBazaFacultati.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormFacultate1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +125,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBazaCandidati.resx">
+      <DependentUpon>FormBazaCandidati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBazaFacultati.resx">
+      <DependentUpon>FormBazaFacultati.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormFacultate1.resx">
       <DependentUpon>FormFacultate1.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,8 +140,20 @@
     <EmbeddedResource Include="FormFacultate3.resx">
       <DependentUpon>FormFacultate3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormFacultate4.resx">
+      <DependentUpon>FormFacultate4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFacultate5.resx">
+      <DependentUpon>FormFacultate5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFacultate6.resx">
+      <DependentUpon>FormFacultate6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormUniversitate.resx">
       <DependentUpon>FormUniversitate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InscriereCandidat.resx">
+      <DependentUpon>InscriereCandidat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -120,6 +165,39 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="DB_ProjectDataSet.xsc">
+      <DependentUpon>DB_ProjectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_ProjectDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_ProjectDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_ProjectDataSet.xss">
+      <DependentUpon>DB_ProjectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_ProjectDataSet1.xsc">
+      <DependentUpon>DB_ProjectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DB_ProjectDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_ProjectDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_ProjectDataSet1.xss">
+      <DependentUpon>DB_ProjectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DB_ProjectDataSet2.xsc">
+      <DependentUpon>DB_ProjectDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DB_ProjectDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_ProjectDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_ProjectDataSet2.xss">
+      <DependentUpon>DB_ProjectDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -144,6 +222,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fac3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fac4_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FAC5_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FAC6_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\426-4267489_close-button-transparent-png-pictures-close-button-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

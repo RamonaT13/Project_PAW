@@ -13,9 +13,9 @@ namespace Tabusca_Ramona_Project_1058
     public partial class FormFacultate1 : Form
     {
         private Facultate f1 = new Facultate("Biologie", "Biologie", 8.3, 6.5, 60, 3);
-        private Facultate f2 = new Facultate("Chimie", "Chimie", 8.9, 7.44, 0x19, 3);
-        private Facultate f3 = new Facultate("Chimie", "Chimie medicala", 8.07, 6.34, 0x19, 3);
-        private Facultate f4 = new Facultate("Educație fizică și sport", "Educație fizică și sportivă", 7.86, 6.01, 0x4b, 3);
+        private Facultate f2 = new Facultate("Chimie", "Chimie", 8.9, 7.44, 25, 3);
+        private Facultate f3 = new Facultate("Chimie", "Chimie medicala", 8.07, 6.34, 25, 3);
+        private Facultate f4 = new Facultate("Educație fizică și sport", "Educație fizică și sportivă", 7.86, 6.01, 75, 3);
         private Facultate f5 = new Facultate("Informatică", "Informatică", 9.21, 7.89, 100, 3);
         private Facultate f6 = new Facultate("Matematică", "Matematică", 9.02, 7.55, 30, 3);
         public FormFacultate1()

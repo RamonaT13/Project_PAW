@@ -14,8 +14,8 @@ namespace Tabusca_Ramona_Project_1058
     {
         private Facultate a1 = new Facultate("Ingineria autovehiculelor", "Autovehciule rutiere", 7.45, 6.11, 90, 4);
         private Facultate a2 = new Facultate("Ingineria transporturilor", " Ingineria transporturilor şi a traficului", 7.55, 6.1, 60, 4);
-        private Facultate a3 = new Facultate("Inginerie industrială", "Tehnologia construcțiilor de mașini ", 8.01, 6.33, 0x4b, 4);
-        private Facultate a4 = new Facultate("Inginerie și management", "Inginerie economică industrială", 7.86, 6.24, 0x4b, 4);
+        private Facultate a3 = new Facultate("Inginerie industrială", "Tehnologia construcțiilor de mașini ", 8.01, 6.33, 75, 4);
+        private Facultate a4 = new Facultate("Inginerie și management", "Inginerie economică industrială", 7.86, 6.24, 75, 4);
         public FormFacultate2()
         {
             InitializeComponent();
